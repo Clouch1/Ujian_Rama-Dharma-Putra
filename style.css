@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('background.jpg') no-repeat;
+    color: #ddd;
+    font-weight: bold;
+}
+
+input,
+select {
+    opacity: 0.8;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.table,
+tr,
+th {
+    color: #ddd;
+    font-weight: bold;
+}
+
+
+.card {
+    background: transparent;
+    backdrop-filter: blur(15px);
+    width: 800px;
+    margin: auto;
+}
+
+
+.mx-auto {
+    width: 880px
+}
+
+.card {
+    margin-top: 10px;
+}
